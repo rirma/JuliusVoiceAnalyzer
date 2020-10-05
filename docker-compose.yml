@@ -1,0 +1,12 @@
+version: '3'
+services:
+  python:
+    build: .
+    container_name: 'ubuntu-python18.04'
+    working_dir: '/root/'
+    stdin_open: true
+    environment:
+      - PULSE_SERVER=docker.for.mac.localhost
+    volumes:
+      - ./opt:/root/opt
+      - ~/.config/pulse:/root/.config/pulse
