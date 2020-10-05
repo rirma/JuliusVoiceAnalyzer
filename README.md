@@ -4,22 +4,22 @@ Using Julius developed by Kyoto University, we provide an environment and python
 # Usage
 First, start the docker container with the following command.
 
-'''bash
+```bash
 $ docker-compose up -d --build
-'''
+```
 
 Connect to the container with the following command.
 
-'''bash
+```bash
 $ docker-compose exec python bash
-'''
+```
 
 If you want to try Julius' voice recognition program, run the program with the following command.
 
-'''bash
+```bash
 $ cd opt/public/src
 $ python3 VoiceAnalyzer.py
-'''
+```
 
 # VoiceAnalyzer.py
 
