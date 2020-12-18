@@ -40,7 +40,7 @@ Or if you want to analyze file voice, run the following command.
 ```bash
 $ bash julius-start.sh
 ...
-enter filename->.'your file path'
+enter filename->'your file path'
 ```
 ※notification
 Julius is only allowed rate 16000.
